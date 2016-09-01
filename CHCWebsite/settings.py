@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'lectures',
     'writeups',
     'guides',
-    'contact'
+    'contact',
+    'faq'
 ]
 
 MIDDLEWARE_CLASSES = [
