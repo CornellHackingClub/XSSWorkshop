@@ -62,13 +62,13 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                        {{ question.title }}
+                                        {{ question.title | safe }}
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    {{ question.answer }}
+                                    {{ question.answer | safe }}
                                 </div>
                             </div>
                         </div>
@@ -81,19 +81,28 @@
 
             <!-- Only if logged in -->
             {% if username %}
-            <div class="row">
-                <div class="well">
-                    <form METHOD="POST" action="">
-                        <div class="input-group">
-                            <input type="text" name="query" class="form-control" placeholder="Ask a Question">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                            </span>
-                        </div>
-                    </form>
+                <div class="row">
+                    <div class="well">
+                        <form METHOD="POST" action="">
+                            {% csrf_token %}
+                            <div class="input-group">
+                                <input type="text" name="query" class="form-control" placeholder="Ask a Question">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            {%  endif %}
+            {% else %}
+                <div class="row">
+                    <div class="well">
+                        <div class="input-group">
+                            Please login to ask questions
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
             <!-- Only if logged in -->
 
         </div>

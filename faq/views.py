@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from django.shortcuts import render
 from .models import FAQ
 from django.db.models import Q
@@ -5,24 +6,23 @@ from django.db.models import Q
 
 # Just using function based views for now because they're easy
 def faq_home(request):
+    user = request.user
+
     if request.method == 'POST':
-        question = request.body
-        print(question)
+        # Very specifically choosing *NOT* to check username
+        # so they can get away with XSS without authentication
+        question = request.POST['query']
+        FAQ.objects.create(title=question,user=user)
 
     queryset = FAQ.objects.all()
-    sessionid = request.session.session_key
-    adminsession = "mo3oi8ze8avwrgj3udd8igal76nubjm6"
-
-    sessionid = adminsession
 
     error = None
 
-    queryset = queryset.filter(Q(session__exact=sessionid) | Q(session__exact=adminsession))
+    queryset = queryset.filter(Q(user__exact=user) | Q(user__exact='admin'))
     context = {
         "questions": queryset,
-        "error": error,
-        "username": sessionid,
-        "admin": "admin"
+        "username": user,
+        "error": error
     }
     response = render(request, "faq.html", context)
     response['X-XSS-Protection'] = 0
