@@ -1,1 +1,1 @@
-# Cornell Hacking Club Website
+# Cornell Hacking XSS Workshop
