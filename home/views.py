@@ -34,7 +34,6 @@ def build_events_json():
 
 
 def registration(request):
-    error = False
     if request.method == "POST":
         username = request.POST.get("username")
         password = request.POST.get("password")
@@ -50,3 +49,9 @@ def registration(request):
         return calendar(request)
     else:
         return render(request, "registration/registration_form.html")
+
+def admin(request):
+    if str(request.user) == 'admin':
+        return render(request, "admin.html")
+    else:
+        return calendar(request)

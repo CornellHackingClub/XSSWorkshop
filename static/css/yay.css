@@ -1,0 +1,1836 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+a.frame-1 {
+  left: 0%;
+}
+a.frame-1:hover ~ .bg, a.frame-1:focus ~ .bg {
+  background-position: -20px bottom;
+}
+a.frame-1:hover ~ .mario, a.frame-1:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-1:hover ~ .q, a.frame-1:focus ~ .q {
+  left: calc(50% + 1640px);
+}
+a.frame-1:hover ~ .q, a.frame-1:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-2 {
+  left: 1.04167%;
+}
+a.frame-2:hover ~ .bg, a.frame-2:focus ~ .bg {
+  background-position: -40px bottom;
+}
+a.frame-2:hover ~ .mario, a.frame-2:focus ~ .mario {
+  background-position: -240px 0;
+  bottom: 0%;
+}
+a.frame-2:hover ~ .q, a.frame-2:focus ~ .q {
+  left: calc(50% + 1620px);
+}
+a.frame-2:hover ~ .q, a.frame-2:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-3 {
+  left: 2.08333%;
+}
+a.frame-3:hover ~ .bg, a.frame-3:focus ~ .bg {
+  background-position: -60px bottom;
+}
+a.frame-3:hover ~ .mario, a.frame-3:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-3:hover ~ .q, a.frame-3:focus ~ .q {
+  left: calc(50% + 1600px);
+}
+a.frame-3:hover ~ .q, a.frame-3:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-4 {
+  left: 3.125%;
+}
+a.frame-4:hover ~ .bg, a.frame-4:focus ~ .bg {
+  background-position: -80px bottom;
+}
+a.frame-4:hover ~ .mario, a.frame-4:focus ~ .mario {
+  background-position: -240px 0;
+  bottom: 0%;
+}
+a.frame-4:hover ~ .q, a.frame-4:focus ~ .q {
+  left: calc(50% + 1580px);
+}
+a.frame-4:hover ~ .q, a.frame-4:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-5 {
+  left: 4.16667%;
+}
+a.frame-5:hover ~ .bg, a.frame-5:focus ~ .bg {
+  background-position: -100px bottom;
+}
+a.frame-5:hover ~ .mario, a.frame-5:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-5:hover ~ .q, a.frame-5:focus ~ .q {
+  left: calc(50% + 1560px);
+}
+a.frame-5:hover ~ .q, a.frame-5:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-6 {
+  left: 5.20833%;
+}
+a.frame-6:hover ~ .bg, a.frame-6:focus ~ .bg {
+  background-position: -120px bottom;
+}
+a.frame-6:hover ~ .mario, a.frame-6:focus ~ .mario {
+  background-position: -240px 0;
+  bottom: 0%;
+}
+a.frame-6:hover ~ .q, a.frame-6:focus ~ .q {
+  left: calc(50% + 1540px);
+}
+a.frame-6:hover ~ .q, a.frame-6:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-7 {
+  left: 6.25%;
+}
+a.frame-7:hover ~ .bg, a.frame-7:focus ~ .bg {
+  background-position: -140px bottom;
+}
+a.frame-7:hover ~ .mario, a.frame-7:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-7:hover ~ .q, a.frame-7:focus ~ .q {
+  left: calc(50% + 1520px);
+}
+a.frame-7:hover ~ .q, a.frame-7:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-8 {
+  left: 7.29167%;
+}
+a.frame-8:hover ~ .bg, a.frame-8:focus ~ .bg {
+  background-position: -160px bottom;
+}
+a.frame-8:hover ~ .mario, a.frame-8:focus ~ .mario {
+  background-position: -240px 0;
+  bottom: 0%;
+}
+a.frame-8:hover ~ .q, a.frame-8:focus ~ .q {
+  left: calc(50% + 1500px);
+}
+a.frame-8:hover ~ .q, a.frame-8:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-9 {
+  left: 8.33333%;
+}
+a.frame-9:hover ~ .bg, a.frame-9:focus ~ .bg {
+  background-position: -180px bottom;
+}
+a.frame-9:hover ~ .mario, a.frame-9:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-9:hover ~ .q, a.frame-9:focus ~ .q {
+  left: calc(50% + 1480px);
+}
+a.frame-9:hover ~ .q, a.frame-9:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-10 {
+  left: 9.375%;
+}
+a.frame-10:hover ~ .bg, a.frame-10:focus ~ .bg {
+  background-position: -200px bottom;
+}
+a.frame-10:hover ~ .mario, a.frame-10:focus ~ .mario {
+  background-position: -240px 0;
+  bottom: 0%;
+}
+a.frame-10:hover ~ .q, a.frame-10:focus ~ .q {
+  left: calc(50% + 1460px);
+}
+a.frame-10:hover ~ .q, a.frame-10:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-11 {
+  left: 10.41667%;
+}
+a.frame-11:hover ~ .bg, a.frame-11:focus ~ .bg {
+  background-position: -220px bottom;
+}
+a.frame-11:hover ~ .mario, a.frame-11:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-11:hover ~ .q, a.frame-11:focus ~ .q {
+  left: calc(50% + 1440px);
+}
+a.frame-11:hover ~ .q, a.frame-11:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-12 {
+  left: 11.45833%;
+}
+a.frame-12:hover ~ .bg, a.frame-12:focus ~ .bg {
+  background-position: -240px bottom;
+}
+a.frame-12:hover ~ .mario, a.frame-12:focus ~ .mario {
+  background-position: -240px 0;
+  bottom: 0%;
+}
+a.frame-12:hover ~ .q, a.frame-12:focus ~ .q {
+  left: calc(50% + 1420px);
+}
+a.frame-12:hover ~ .q, a.frame-12:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-13 {
+  left: 12.5%;
+}
+a.frame-13:hover ~ .bg, a.frame-13:focus ~ .bg {
+  background-position: -266.66667px bottom;
+}
+a.frame-13:hover ~ .mario, a.frame-13:focus ~ .mario {
+  background-position: -1440px 0;
+  bottom: 0%;
+}
+a.frame-13:hover ~ .q, a.frame-13:focus ~ .q {
+  left: calc(50% + 1400px);
+}
+a.frame-13:hover ~ .q, a.frame-13:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-14 {
+  left: 13.54167%;
+}
+a.frame-14:hover ~ .bg, a.frame-14:focus ~ .bg {
+  background-position: -293.33333px bottom;
+}
+a.frame-14:hover ~ .mario, a.frame-14:focus ~ .mario {
+  background-position: -1680px 0;
+  bottom: 0%;
+}
+a.frame-14:hover ~ .q, a.frame-14:focus ~ .q {
+  left: calc(50% + 1380px);
+}
+a.frame-14:hover ~ .q, a.frame-14:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-15 {
+  left: 14.58333%;
+}
+a.frame-15:hover ~ .bg, a.frame-15:focus ~ .bg {
+  background-position: -320px bottom;
+}
+a.frame-15:hover ~ .mario, a.frame-15:focus ~ .mario {
+  background-position: -1920px 0;
+  bottom: 0%;
+}
+a.frame-15:hover ~ .q, a.frame-15:focus ~ .q {
+  left: calc(50% + 1360px);
+}
+a.frame-15:hover ~ .q, a.frame-15:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-16 {
+  left: 15.625%;
+}
+a.frame-16:hover ~ .bg, a.frame-16:focus ~ .bg {
+  background-position: -346.66667px bottom;
+}
+a.frame-16:hover ~ .mario, a.frame-16:focus ~ .mario {
+  background-position: -2160px 0;
+  bottom: 0%;
+}
+a.frame-16:hover ~ .q, a.frame-16:focus ~ .q {
+  left: calc(50% + 1340px);
+}
+a.frame-16:hover ~ .q, a.frame-16:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-17 {
+  left: 16.66667%;
+}
+a.frame-17:hover ~ .bg, a.frame-17:focus ~ .bg {
+  background-position: -373.33333px bottom;
+}
+a.frame-17:hover ~ .mario, a.frame-17:focus ~ .mario {
+  background-position: -1440px 0;
+  bottom: 0%;
+}
+a.frame-17:hover ~ .q, a.frame-17:focus ~ .q {
+  left: calc(50% + 1320px);
+}
+a.frame-17:hover ~ .q, a.frame-17:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-18 {
+  left: 17.70833%;
+}
+a.frame-18:hover ~ .bg, a.frame-18:focus ~ .bg {
+  background-position: -400px bottom;
+}
+a.frame-18:hover ~ .mario, a.frame-18:focus ~ .mario {
+  background-position: -1680px 0;
+  bottom: 0%;
+}
+a.frame-18:hover ~ .q, a.frame-18:focus ~ .q {
+  left: calc(50% + 1300px);
+}
+a.frame-18:hover ~ .q, a.frame-18:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-19 {
+  left: 18.75%;
+}
+a.frame-19:hover ~ .bg, a.frame-19:focus ~ .bg {
+  background-position: -426.66667px bottom;
+}
+a.frame-19:hover ~ .mario, a.frame-19:focus ~ .mario {
+  background-position: -1920px 0;
+  bottom: 0%;
+}
+a.frame-19:hover ~ .q, a.frame-19:focus ~ .q {
+  left: calc(50% + 1280px);
+}
+a.frame-19:hover ~ .q, a.frame-19:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-20 {
+  left: 19.79167%;
+}
+a.frame-20:hover ~ .bg, a.frame-20:focus ~ .bg {
+  background-position: -453.33333px bottom;
+}
+a.frame-20:hover ~ .mario, a.frame-20:focus ~ .mario {
+  background-position: -2160px 0;
+  bottom: 0%;
+}
+a.frame-20:hover ~ .q, a.frame-20:focus ~ .q {
+  left: calc(50% + 1260px);
+}
+a.frame-20:hover ~ .q, a.frame-20:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-21 {
+  left: 20.83333%;
+}
+a.frame-21:hover ~ .bg, a.frame-21:focus ~ .bg {
+  background-position: -480px bottom;
+}
+a.frame-21:hover ~ .mario, a.frame-21:focus ~ .mario {
+  background-position: -1440px 0;
+  bottom: 0%;
+}
+a.frame-21:hover ~ .q, a.frame-21:focus ~ .q {
+  left: calc(50% + 1240px);
+}
+a.frame-21:hover ~ .q, a.frame-21:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-22 {
+  left: 21.875%;
+}
+a.frame-22:hover ~ .bg, a.frame-22:focus ~ .bg {
+  background-position: -506.66667px bottom;
+}
+a.frame-22:hover ~ .mario, a.frame-22:focus ~ .mario {
+  background-position: -1680px 0;
+  bottom: 0%;
+}
+a.frame-22:hover ~ .q, a.frame-22:focus ~ .q {
+  left: calc(50% + 1220px);
+}
+a.frame-22:hover ~ .q, a.frame-22:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-23 {
+  left: 22.91667%;
+}
+a.frame-23:hover ~ .bg, a.frame-23:focus ~ .bg {
+  background-position: -533.33333px bottom;
+}
+a.frame-23:hover ~ .mario, a.frame-23:focus ~ .mario {
+  background-position: -1920px 0;
+  bottom: 0%;
+}
+a.frame-23:hover ~ .q, a.frame-23:focus ~ .q {
+  left: calc(50% + 1200px);
+}
+a.frame-23:hover ~ .q, a.frame-23:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-24 {
+  left: 23.95833%;
+}
+a.frame-24:hover ~ .bg, a.frame-24:focus ~ .bg {
+  background-position: -560px bottom;
+}
+a.frame-24:hover ~ .mario, a.frame-24:focus ~ .mario {
+  background-position: -2160px 0;
+  bottom: 0%;
+}
+a.frame-24:hover ~ .q, a.frame-24:focus ~ .q {
+  left: calc(50% + 1180px);
+}
+a.frame-24:hover ~ .q, a.frame-24:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-25 {
+  left: 25%;
+}
+a.frame-25:hover ~ .bg, a.frame-25:focus ~ .bg {
+  background-position: -586.66667px bottom;
+}
+a.frame-25:hover ~ .mario, a.frame-25:focus ~ .mario {
+  background-position: -1440px 0;
+  bottom: 0%;
+}
+a.frame-25:hover ~ .q, a.frame-25:focus ~ .q {
+  left: calc(50% + 1160px);
+}
+a.frame-25:hover ~ .q, a.frame-25:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-26 {
+  left: 26.04167%;
+}
+a.frame-26:hover ~ .bg, a.frame-26:focus ~ .bg {
+  background-position: -613.33333px bottom;
+}
+a.frame-26:hover ~ .mario, a.frame-26:focus ~ .mario {
+  background-position: -1680px 0;
+  bottom: 0%;
+}
+a.frame-26:hover ~ .q, a.frame-26:focus ~ .q {
+  left: calc(50% + 1140px);
+}
+a.frame-26:hover ~ .q, a.frame-26:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-27 {
+  left: 27.08333%;
+}
+a.frame-27:hover ~ .bg, a.frame-27:focus ~ .bg {
+  background-position: -640px bottom;
+}
+a.frame-27:hover ~ .mario, a.frame-27:focus ~ .mario {
+  background-position: -1920px 0;
+  bottom: 0%;
+}
+a.frame-27:hover ~ .q, a.frame-27:focus ~ .q {
+  left: calc(50% + 1120px);
+}
+a.frame-27:hover ~ .q, a.frame-27:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-28 {
+  left: 28.125%;
+}
+a.frame-28:hover ~ .bg, a.frame-28:focus ~ .bg {
+  background-position: -666.66667px bottom;
+}
+a.frame-28:hover ~ .mario, a.frame-28:focus ~ .mario {
+  background-position: -2160px 0;
+  bottom: 0%;
+}
+a.frame-28:hover ~ .q, a.frame-28:focus ~ .q {
+  left: calc(50% + 1100px);
+}
+a.frame-28:hover ~ .q, a.frame-28:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-29 {
+  left: 29.16667%;
+}
+a.frame-29:hover ~ .bg, a.frame-29:focus ~ .bg {
+  background-position: -693.33333px bottom;
+}
+a.frame-29:hover ~ .mario, a.frame-29:focus ~ .mario {
+  background-position: -1440px 0;
+  bottom: 0%;
+}
+a.frame-29:hover ~ .q, a.frame-29:focus ~ .q {
+  left: calc(50% + 1080px);
+}
+a.frame-29:hover ~ .q, a.frame-29:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-30 {
+  left: 30.20833%;
+}
+a.frame-30:hover ~ .bg, a.frame-30:focus ~ .bg {
+  background-position: -720px bottom;
+}
+a.frame-30:hover ~ .mario, a.frame-30:focus ~ .mario {
+  background-position: -1680px 0;
+  bottom: 0%;
+}
+a.frame-30:hover ~ .q, a.frame-30:focus ~ .q {
+  left: calc(50% + 1060px);
+}
+a.frame-30:hover ~ .q, a.frame-30:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-31 {
+  left: 31.25%;
+}
+a.frame-31:hover ~ .bg, a.frame-31:focus ~ .bg {
+  background-position: -746.66667px bottom;
+}
+a.frame-31:hover ~ .mario, a.frame-31:focus ~ .mario {
+  background-position: -1920px 0;
+  bottom: 0%;
+}
+a.frame-31:hover ~ .q, a.frame-31:focus ~ .q {
+  left: calc(50% + 1040px);
+}
+a.frame-31:hover ~ .q, a.frame-31:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-32 {
+  left: 32.29167%;
+}
+a.frame-32:hover ~ .bg, a.frame-32:focus ~ .bg {
+  background-position: -773.33333px bottom;
+}
+a.frame-32:hover ~ .mario, a.frame-32:focus ~ .mario {
+  background-position: -2160px 0;
+  bottom: 0%;
+}
+a.frame-32:hover ~ .q, a.frame-32:focus ~ .q {
+  left: calc(50% + 1020px);
+}
+a.frame-32:hover ~ .q, a.frame-32:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-33 {
+  left: 33.33333%;
+}
+a.frame-33:hover ~ .bg, a.frame-33:focus ~ .bg {
+  background-position: -800px bottom;
+}
+a.frame-33:hover ~ .mario, a.frame-33:focus ~ .mario {
+  background-position: -1440px 0;
+  bottom: 0%;
+}
+a.frame-33:hover ~ .q, a.frame-33:focus ~ .q {
+  left: calc(50% + 1000px);
+}
+a.frame-33:hover ~ .q, a.frame-33:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-34 {
+  left: 34.375%;
+}
+a.frame-34:hover ~ .bg, a.frame-34:focus ~ .bg {
+  background-position: -826.66667px bottom;
+}
+a.frame-34:hover ~ .mario, a.frame-34:focus ~ .mario {
+  background-position: -1680px 0;
+  bottom: 0%;
+}
+a.frame-34:hover ~ .q, a.frame-34:focus ~ .q {
+  left: calc(50% + 980px);
+}
+a.frame-34:hover ~ .q, a.frame-34:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-35 {
+  left: 35.41667%;
+}
+a.frame-35:hover ~ .bg, a.frame-35:focus ~ .bg {
+  background-position: -853.33333px bottom;
+}
+a.frame-35:hover ~ .mario, a.frame-35:focus ~ .mario {
+  background-position: -1920px 0;
+  bottom: 0%;
+}
+a.frame-35:hover ~ .q, a.frame-35:focus ~ .q {
+  left: calc(50% + 960px);
+}
+a.frame-35:hover ~ .q, a.frame-35:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-36 {
+  left: 36.45833%;
+}
+a.frame-36:hover ~ .bg, a.frame-36:focus ~ .bg {
+  background-position: -880px bottom;
+}
+a.frame-36:hover ~ .mario, a.frame-36:focus ~ .mario {
+  background-position: -2160px 0;
+  bottom: 0%;
+}
+a.frame-36:hover ~ .q, a.frame-36:focus ~ .q {
+  left: calc(50% + 940px);
+}
+a.frame-36:hover ~ .q, a.frame-36:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-37 {
+  left: 37.5%;
+}
+a.frame-37:hover ~ .bg, a.frame-37:focus ~ .bg {
+  background-position: -906.66667px bottom;
+}
+a.frame-37:hover ~ .mario, a.frame-37:focus ~ .mario {
+  background-position: -2400px 0;
+  bottom: 0%;
+}
+a.frame-37:hover ~ .q, a.frame-37:focus ~ .q {
+  left: calc(50% + 920px);
+}
+a.frame-37:hover ~ .q, a.frame-37:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-38 {
+  left: 38.54167%;
+}
+a.frame-38:hover ~ .bg, a.frame-38:focus ~ .bg {
+  background-position: -933.33333px bottom;
+}
+a.frame-38:hover ~ .mario, a.frame-38:focus ~ .mario {
+  background-position: -2640px 0;
+  bottom: 0%;
+}
+a.frame-38:hover ~ .q, a.frame-38:focus ~ .q {
+  left: calc(50% + 900px);
+}
+a.frame-38:hover ~ .q, a.frame-38:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-39 {
+  left: 39.58333%;
+}
+a.frame-39:hover ~ .bg, a.frame-39:focus ~ .bg {
+  background-position: -960px bottom;
+}
+a.frame-39:hover ~ .mario, a.frame-39:focus ~ .mario {
+  background-position: -2880px 0;
+  bottom: 0%;
+}
+a.frame-39:hover ~ .q, a.frame-39:focus ~ .q {
+  left: calc(50% + 880px);
+}
+a.frame-39:hover ~ .q, a.frame-39:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-40 {
+  left: 40.625%;
+}
+a.frame-40:hover ~ .bg, a.frame-40:focus ~ .bg {
+  background-position: -986.66667px bottom;
+}
+a.frame-40:hover ~ .mario, a.frame-40:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 4.44444%;
+}
+a.frame-40:hover ~ .q, a.frame-40:focus ~ .q {
+  left: calc(50% + 860px);
+}
+a.frame-40:hover ~ .q, a.frame-40:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-41 {
+  left: 41.66667%;
+}
+a.frame-41:hover ~ .bg, a.frame-41:focus ~ .bg {
+  background-position: -1013.33333px bottom;
+}
+a.frame-41:hover ~ .mario, a.frame-41:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 8.88889%;
+}
+a.frame-41:hover ~ .q, a.frame-41:focus ~ .q {
+  left: calc(50% + 840px);
+}
+a.frame-41:hover ~ .q, a.frame-41:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-42 {
+  left: 42.70833%;
+}
+a.frame-42:hover ~ .bg, a.frame-42:focus ~ .bg {
+  background-position: -1040px bottom;
+}
+a.frame-42:hover ~ .mario, a.frame-42:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 13.33333%;
+}
+a.frame-42:hover ~ .q, a.frame-42:focus ~ .q {
+  left: calc(50% + 820px);
+}
+a.frame-42:hover ~ .q, a.frame-42:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-43 {
+  left: 43.75%;
+}
+a.frame-43:hover ~ .bg, a.frame-43:focus ~ .bg {
+  background-position: -1066.66667px bottom;
+}
+a.frame-43:hover ~ .mario, a.frame-43:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 17.77778%;
+}
+a.frame-43:hover ~ .q, a.frame-43:focus ~ .q {
+  left: calc(50% + 800px);
+}
+a.frame-43:hover ~ .q, a.frame-43:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-44 {
+  left: 44.79167%;
+}
+a.frame-44:hover ~ .bg, a.frame-44:focus ~ .bg {
+  background-position: -1093.33333px bottom;
+}
+a.frame-44:hover ~ .mario, a.frame-44:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 22.22222%;
+}
+a.frame-44:hover ~ .q, a.frame-44:focus ~ .q {
+  left: calc(50% + 780px);
+}
+a.frame-44:hover ~ .q, a.frame-44:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-45 {
+  left: 45.83333%;
+}
+a.frame-45:hover ~ .bg, a.frame-45:focus ~ .bg {
+  background-position: -1120px bottom;
+}
+a.frame-45:hover ~ .mario, a.frame-45:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 26.66667%;
+}
+a.frame-45:hover ~ .q, a.frame-45:focus ~ .q {
+  left: calc(50% + 760px);
+}
+a.frame-45:hover ~ .q, a.frame-45:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-46 {
+  left: 46.875%;
+}
+a.frame-46:hover ~ .bg, a.frame-46:focus ~ .bg {
+  background-position: -1146.66667px bottom;
+}
+a.frame-46:hover ~ .mario, a.frame-46:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 31.11111%;
+}
+a.frame-46:hover ~ .q, a.frame-46:focus ~ .q {
+  left: calc(50% + 740px);
+}
+a.frame-46:hover ~ .q, a.frame-46:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-47 {
+  left: 47.91667%;
+}
+a.frame-47:hover ~ .bg, a.frame-47:focus ~ .bg {
+  background-position: -1173.33333px bottom;
+}
+a.frame-47:hover ~ .mario, a.frame-47:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 35.55556%;
+}
+a.frame-47:hover ~ .q, a.frame-47:focus ~ .q {
+  left: calc(50% + 720px);
+}
+a.frame-47:hover ~ .q, a.frame-47:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-48 {
+  left: 48.95833%;
+}
+a.frame-48:hover ~ .bg, a.frame-48:focus ~ .bg {
+  background-position: -1200px bottom;
+}
+a.frame-48:hover ~ .mario, a.frame-48:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 40%;
+}
+a.frame-48:hover ~ .q, a.frame-48:focus ~ .q {
+  left: calc(50% + 700px);
+}
+a.frame-48:hover ~ .q, a.frame-48:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-49 {
+  left: 50%;
+}
+a.frame-49:hover ~ .bg, a.frame-49:focus ~ .bg {
+  background-position: -1226.66667px bottom;
+}
+a.frame-49:hover ~ .mario, a.frame-49:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 44.44444%;
+}
+a.frame-49:hover ~ .q, a.frame-49:focus ~ .q {
+  left: calc(50% + 680px);
+}
+a.frame-49:hover ~ .q, a.frame-49:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-50 {
+  left: 51.04167%;
+}
+a.frame-50:hover ~ .bg, a.frame-50:focus ~ .bg {
+  background-position: -1253.33333px bottom;
+}
+a.frame-50:hover ~ .mario, a.frame-50:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 48.88889%;
+}
+a.frame-50:hover ~ .q, a.frame-50:focus ~ .q {
+  left: calc(50% + 660px);
+}
+a.frame-50:hover ~ .q, a.frame-50:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-51 {
+  left: 52.08333%;
+}
+a.frame-51:hover ~ .bg, a.frame-51:focus ~ .bg {
+  background-position: -1280px bottom;
+}
+a.frame-51:hover ~ .mario, a.frame-51:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 53.33333%;
+}
+a.frame-51:hover ~ .q, a.frame-51:focus ~ .q {
+  left: calc(50% + 640px);
+}
+a.frame-51:hover ~ .q, a.frame-51:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-52 {
+  left: 53.125%;
+}
+a.frame-52:hover ~ .bg, a.frame-52:focus ~ .bg {
+  background-position: -1306.66667px bottom;
+}
+a.frame-52:hover ~ .mario, a.frame-52:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 57.77778%;
+}
+a.frame-52:hover ~ .q, a.frame-52:focus ~ .q {
+  left: calc(50% + 620px);
+}
+a.frame-52:hover ~ .q, a.frame-52:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-53 {
+  left: 54.16667%;
+}
+a.frame-53:hover ~ .bg, a.frame-53:focus ~ .bg {
+  background-position: -1333.33333px bottom;
+}
+a.frame-53:hover ~ .mario, a.frame-53:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 62.22222%;
+}
+a.frame-53:hover ~ .q, a.frame-53:focus ~ .q {
+  left: calc(50% + 600px);
+}
+a.frame-53:hover ~ .q, a.frame-53:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-54 {
+  left: 55.20833%;
+}
+a.frame-54:hover ~ .bg, a.frame-54:focus ~ .bg {
+  background-position: -1360px bottom;
+}
+a.frame-54:hover ~ .mario, a.frame-54:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 66.66667%;
+}
+a.frame-54:hover ~ .q, a.frame-54:focus ~ .q {
+  left: calc(50% + 580px);
+}
+a.frame-54:hover ~ .q, a.frame-54:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-55 {
+  left: 56.25%;
+}
+a.frame-55:hover ~ .bg, a.frame-55:focus ~ .bg {
+  background-position: -1386.66667px bottom;
+}
+a.frame-55:hover ~ .mario, a.frame-55:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 71.11111%;
+}
+a.frame-55:hover ~ .q, a.frame-55:focus ~ .q {
+  left: calc(50% + 560px);
+}
+a.frame-55:hover ~ .q, a.frame-55:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-56 {
+  left: 57.29167%;
+}
+a.frame-56:hover ~ .bg, a.frame-56:focus ~ .bg {
+  background-position: -1413.33333px bottom;
+}
+a.frame-56:hover ~ .mario, a.frame-56:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 75.55556%;
+}
+a.frame-56:hover ~ .q, a.frame-56:focus ~ .q {
+  left: calc(50% + 540px);
+}
+a.frame-56:hover ~ .q, a.frame-56:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-57 {
+  left: 58.33333%;
+}
+a.frame-57:hover ~ .bg, a.frame-57:focus ~ .bg {
+  background-position: -1440px bottom;
+}
+a.frame-57:hover ~ .mario, a.frame-57:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 80%;
+}
+a.frame-57:hover ~ .q, a.frame-57:focus ~ .q {
+  left: calc(50% + 520px);
+}
+a.frame-57:hover ~ .q, a.frame-57:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-58 {
+  left: 59.375%;
+}
+a.frame-58:hover ~ .bg, a.frame-58:focus ~ .bg {
+  background-position: -1466.66667px bottom;
+}
+a.frame-58:hover ~ .mario, a.frame-58:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 75.55556%;
+}
+a.frame-58:hover ~ .q, a.frame-58:focus ~ .q {
+  left: calc(50% + 500px);
+}
+a.frame-58:hover ~ .q, a.frame-58:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-59 {
+  left: 60.41667%;
+}
+a.frame-59:hover ~ .bg, a.frame-59:focus ~ .bg {
+  background-position: -1493.33333px bottom;
+}
+a.frame-59:hover ~ .mario, a.frame-59:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 71.11111%;
+}
+a.frame-59:hover ~ .q, a.frame-59:focus ~ .q {
+  left: calc(50% + 480px);
+}
+a.frame-59:hover ~ .q, a.frame-59:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-60 {
+  left: 61.45833%;
+}
+a.frame-60:hover ~ .bg, a.frame-60:focus ~ .bg {
+  background-position: -1520px bottom;
+}
+a.frame-60:hover ~ .mario, a.frame-60:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 66.66667%;
+}
+a.frame-60:hover ~ .q, a.frame-60:focus ~ .q {
+  left: calc(50% + 460px);
+}
+a.frame-60:hover ~ .q, a.frame-60:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-61 {
+  left: 62.5%;
+}
+a.frame-61:hover ~ .bg, a.frame-61:focus ~ .bg {
+  background-position: -1546.66667px bottom;
+}
+a.frame-61:hover ~ .mario, a.frame-61:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 62.22222%;
+}
+a.frame-61:hover ~ .q, a.frame-61:focus ~ .q {
+  left: calc(50% + 440px);
+}
+a.frame-61:hover ~ .q, a.frame-61:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-62 {
+  left: 63.54167%;
+}
+a.frame-62:hover ~ .bg, a.frame-62:focus ~ .bg {
+  background-position: -1573.33333px bottom;
+}
+a.frame-62:hover ~ .mario, a.frame-62:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 57.77778%;
+}
+a.frame-62:hover ~ .q, a.frame-62:focus ~ .q {
+  left: calc(50% + 420px);
+}
+a.frame-62:hover ~ .q, a.frame-62:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-63 {
+  left: 64.58333%;
+}
+a.frame-63:hover ~ .bg, a.frame-63:focus ~ .bg {
+  background-position: -1600px bottom;
+}
+a.frame-63:hover ~ .mario, a.frame-63:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 53.33333%;
+}
+a.frame-63:hover ~ .q, a.frame-63:focus ~ .q {
+  left: calc(50% + 400px);
+}
+a.frame-63:hover ~ .q, a.frame-63:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-64 {
+  left: 65.625%;
+}
+a.frame-64:hover ~ .bg, a.frame-64:focus ~ .bg {
+  background-position: -1626.66667px bottom;
+}
+a.frame-64:hover ~ .mario, a.frame-64:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 48.88889%;
+}
+a.frame-64:hover ~ .q, a.frame-64:focus ~ .q {
+  left: calc(50% + 380px);
+}
+a.frame-64:hover ~ .q, a.frame-64:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-65 {
+  left: 66.66667%;
+}
+a.frame-65:hover ~ .bg, a.frame-65:focus ~ .bg {
+  background-position: -1653.33333px bottom;
+}
+a.frame-65:hover ~ .mario, a.frame-65:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 44.44444%;
+}
+a.frame-65:hover ~ .q, a.frame-65:focus ~ .q {
+  left: calc(50% + 360px);
+}
+a.frame-65:hover ~ .q, a.frame-65:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-66 {
+  left: 67.70833%;
+}
+a.frame-66:hover ~ .bg, a.frame-66:focus ~ .bg {
+  background-position: -1680px bottom;
+}
+a.frame-66:hover ~ .mario, a.frame-66:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 40%;
+}
+a.frame-66:hover ~ .q, a.frame-66:focus ~ .q {
+  left: calc(50% + 340px);
+}
+a.frame-66:hover ~ .q, a.frame-66:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-67 {
+  left: 68.75%;
+}
+a.frame-67:hover ~ .bg, a.frame-67:focus ~ .bg {
+  background-position: -1706.66667px bottom;
+}
+a.frame-67:hover ~ .mario, a.frame-67:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 35.55556%;
+}
+a.frame-67:hover ~ .q, a.frame-67:focus ~ .q {
+  left: calc(50% + 320px);
+}
+a.frame-67:hover ~ .q, a.frame-67:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-68 {
+  left: 69.79167%;
+}
+a.frame-68:hover ~ .bg, a.frame-68:focus ~ .bg {
+  background-position: -1733.33333px bottom;
+}
+a.frame-68:hover ~ .mario, a.frame-68:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 31.11111%;
+}
+a.frame-68:hover ~ .q, a.frame-68:focus ~ .q {
+  left: calc(50% + 300px);
+}
+a.frame-68:hover ~ .q, a.frame-68:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-69 {
+  left: 70.83333%;
+}
+a.frame-69:hover ~ .bg, a.frame-69:focus ~ .bg {
+  background-position: -1760px bottom;
+}
+a.frame-69:hover ~ .mario, a.frame-69:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 26.66667%;
+}
+a.frame-69:hover ~ .q, a.frame-69:focus ~ .q {
+  left: calc(50% + 280px);
+}
+a.frame-69:hover ~ .q, a.frame-69:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-70 {
+  left: 71.875%;
+}
+a.frame-70:hover ~ .bg, a.frame-70:focus ~ .bg {
+  background-position: -1786.66667px bottom;
+}
+a.frame-70:hover ~ .mario, a.frame-70:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 22.22222%;
+}
+a.frame-70:hover ~ .q, a.frame-70:focus ~ .q {
+  left: calc(50% + 260px);
+}
+a.frame-70:hover ~ .q, a.frame-70:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-71 {
+  left: 72.91667%;
+}
+a.frame-71:hover ~ .bg, a.frame-71:focus ~ .bg {
+  background-position: -1813.33333px bottom;
+}
+a.frame-71:hover ~ .mario, a.frame-71:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 17.77778%;
+}
+a.frame-71:hover ~ .q, a.frame-71:focus ~ .q {
+  left: calc(50% + 240px);
+}
+a.frame-71:hover ~ .q, a.frame-71:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-72 {
+  left: 73.95833%;
+}
+a.frame-72:hover ~ .bg, a.frame-72:focus ~ .bg {
+  background-position: -1840px bottom;
+}
+a.frame-72:hover ~ .mario, a.frame-72:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 13.33333%;
+}
+a.frame-72:hover ~ .q, a.frame-72:focus ~ .q {
+  left: calc(50% + 220px);
+}
+a.frame-72:hover ~ .q, a.frame-72:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-73 {
+  left: 75%;
+}
+a.frame-73:hover ~ .bg, a.frame-73:focus ~ .bg {
+  background-position: -1866.66667px bottom;
+}
+a.frame-73:hover ~ .mario, a.frame-73:focus ~ .mario {
+  background-position: -3120px 0;
+  bottom: 8.88889%;
+}
+a.frame-73:hover ~ .q, a.frame-73:focus ~ .q {
+  left: calc(50% + 200px);
+}
+a.frame-73:hover ~ .q, a.frame-73:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-74 {
+  left: 76.04167%;
+}
+a.frame-74:hover ~ .bg, a.frame-74:focus ~ .bg {
+  background-position: -1893.33333px bottom;
+}
+a.frame-74:hover ~ .mario, a.frame-74:focus ~ .mario {
+  background-position: -3360px 0;
+  bottom: 4.44444%;
+}
+a.frame-74:hover ~ .q, a.frame-74:focus ~ .q {
+  left: calc(50% + 180px);
+}
+a.frame-74:hover ~ .q, a.frame-74:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-75 {
+  left: 77.08333%;
+}
+a.frame-75:hover ~ .bg, a.frame-75:focus ~ .bg {
+  background-position: -1920px bottom;
+}
+a.frame-75:hover ~ .mario, a.frame-75:focus ~ .mario {
+  background-position: -3600px 0;
+  bottom: 0%;
+}
+a.frame-75:hover ~ .q, a.frame-75:focus ~ .q {
+  left: calc(50% + 160px);
+}
+a.frame-75:hover ~ .q, a.frame-75:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-76 {
+  left: 78.125%;
+}
+a.frame-76:hover ~ .bg, a.frame-76:focus ~ .bg {
+  background-position: -1940px bottom;
+}
+a.frame-76:hover ~ .mario, a.frame-76:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-76:hover ~ .q, a.frame-76:focus ~ .q {
+  left: calc(50% + 140px);
+}
+a.frame-76:hover ~ .q, a.frame-76:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-77 {
+  left: 79.16667%;
+}
+a.frame-77:hover ~ .bg, a.frame-77:focus ~ .bg {
+  background-position: -1960px bottom;
+}
+a.frame-77:hover ~ .mario, a.frame-77:focus ~ .mario {
+  background-position: -240px 0;
+  bottom: 0%;
+}
+a.frame-77:hover ~ .q, a.frame-77:focus ~ .q {
+  left: calc(50% + 120px);
+}
+a.frame-77:hover ~ .q, a.frame-77:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-78 {
+  left: 80.20833%;
+}
+a.frame-78:hover ~ .bg, a.frame-78:focus ~ .bg {
+  background-position: -1980px bottom;
+}
+a.frame-78:hover ~ .mario, a.frame-78:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-78:hover ~ .q, a.frame-78:focus ~ .q {
+  left: calc(50% + 100px);
+}
+a.frame-78:hover ~ .q, a.frame-78:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-79 {
+  left: 81.25%;
+}
+a.frame-79:hover ~ .bg, a.frame-79:focus ~ .bg {
+  background-position: -2000px bottom;
+}
+a.frame-79:hover ~ .mario, a.frame-79:focus ~ .mario {
+  background-position: -240px 0;
+  bottom: 0%;
+}
+a.frame-79:hover ~ .q, a.frame-79:focus ~ .q {
+  left: calc(50% + 80px);
+}
+a.frame-79:hover ~ .q, a.frame-79:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-80 {
+  left: 82.29167%;
+}
+a.frame-80:hover ~ .bg, a.frame-80:focus ~ .bg {
+  background-position: -2020px bottom;
+}
+a.frame-80:hover ~ .mario, a.frame-80:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-80:hover ~ .q, a.frame-80:focus ~ .q {
+  left: calc(50% + 60px);
+}
+a.frame-80:hover ~ .q, a.frame-80:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-81 {
+  left: 83.33333%;
+}
+a.frame-81:hover ~ .bg, a.frame-81:focus ~ .bg {
+  background-position: -2040px bottom;
+}
+a.frame-81:hover ~ .mario, a.frame-81:focus ~ .mario {
+  background-position: -240px 0;
+  bottom: 0%;
+}
+a.frame-81:hover ~ .q, a.frame-81:focus ~ .q {
+  left: calc(50% + 40px);
+}
+a.frame-81:hover ~ .q, a.frame-81:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-82 {
+  left: 84.375%;
+}
+a.frame-82:hover ~ .bg, a.frame-82:focus ~ .bg {
+  background-position: -2060px bottom;
+}
+a.frame-82:hover ~ .mario, a.frame-82:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-82:hover ~ .q, a.frame-82:focus ~ .q {
+  left: calc(50% + 20px);
+}
+a.frame-82:hover ~ .q, a.frame-82:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-83 {
+  left: 85.41667%;
+}
+a.frame-83:hover ~ .bg, a.frame-83:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-83:hover ~ .mario, a.frame-83:focus ~ .mario {
+  background-position: -240px 0;
+  bottom: 0%;
+}
+a.frame-83:hover ~ .q, a.frame-83:focus ~ .q {
+  left: 50%;
+}
+a.frame-83:hover ~ .q, a.frame-83:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-84 {
+  left: 86.45833%;
+}
+a.frame-84:hover ~ .bg, a.frame-84:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-84:hover ~ .mario, a.frame-84:focus ~ .mario {
+  background-position: -480px 0;
+  bottom: 5%;
+}
+a.frame-84:hover ~ .q, a.frame-84:focus ~ .q {
+  left: 50%;
+}
+a.frame-84:hover ~ .q, a.frame-84:focus ~ .q {
+  background-position: 0px 0;
+}
+
+a.frame-85 {
+  left: 87.5%;
+}
+a.frame-85:hover ~ .bg, a.frame-85:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-85:hover ~ .mario, a.frame-85:focus ~ .mario {
+  background-position: -720px 0;
+  bottom: 10%;
+}
+a.frame-85:hover ~ .q, a.frame-85:focus ~ .q {
+  left: 50%;
+}
+a.frame-85:hover ~ .q, a.frame-85:focus ~ .q {
+  background-position: -80px 0;
+}
+
+a.frame-86 {
+  left: 88.54167%;
+}
+a.frame-86:hover ~ .bg, a.frame-86:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-86:hover ~ .mario, a.frame-86:focus ~ .mario {
+  background-position: -960px 0;
+  bottom: 15%;
+}
+a.frame-86:hover ~ .q, a.frame-86:focus ~ .q {
+  left: 50%;
+}
+a.frame-86:hover ~ .q, a.frame-86:focus ~ .q {
+  background-position: -160px 0;
+}
+
+a.frame-87 {
+  left: 89.58333%;
+}
+a.frame-87:hover ~ .bg, a.frame-87:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-87:hover ~ .mario, a.frame-87:focus ~ .mario {
+  background-position: -1200px 0;
+  bottom: 20%;
+}
+a.frame-87:hover ~ .q, a.frame-87:focus ~ .q {
+  left: 50%;
+}
+a.frame-87:hover ~ .q, a.frame-87:focus ~ .q {
+  background-position: -240px 0;
+}
+
+a.frame-88 {
+  left: 90.625%;
+}
+a.frame-88:hover ~ .bg, a.frame-88:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-88:hover ~ .mario, a.frame-88:focus ~ .mario {
+  background-position: -480px 0;
+  bottom: 15%;
+}
+a.frame-88:hover ~ .q, a.frame-88:focus ~ .q {
+  left: 50%;
+}
+a.frame-88:hover ~ .q, a.frame-88:focus ~ .q {
+  background-position: -320px 0;
+}
+a.frame-88:hover ~ .title, a.frame-88:focus ~ .title {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  bottom: calc(30% + 220px);
+}
+
+a.frame-89 {
+  left: 91.66667%;
+}
+a.frame-89:hover ~ .bg, a.frame-89:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-89:hover ~ .mario, a.frame-89:focus ~ .mario {
+  background-position: -720px 0;
+  bottom: 10%;
+}
+a.frame-89:hover ~ .q, a.frame-89:focus ~ .q {
+  left: 50%;
+}
+a.frame-89:hover ~ .q, a.frame-89:focus ~ .q {
+  background-position: -320px 0;
+}
+a.frame-89:hover ~ .title, a.frame-89:focus ~ .title {
+  -webkit-transform: scale(0.125);
+          transform: scale(0.125);
+  bottom: calc(31.25% + 220px);
+}
+
+a.frame-90 {
+  left: 92.70833%;
+}
+a.frame-90:hover ~ .bg, a.frame-90:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-90:hover ~ .mario, a.frame-90:focus ~ .mario {
+  background-position: -960px 0;
+  bottom: 5%;
+}
+a.frame-90:hover ~ .q, a.frame-90:focus ~ .q {
+  left: 50%;
+}
+a.frame-90:hover ~ .q, a.frame-90:focus ~ .q {
+  background-position: -320px 0;
+}
+a.frame-90:hover ~ .title, a.frame-90:focus ~ .title {
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  bottom: calc(32.5% + 220px);
+}
+
+a.frame-91 {
+  left: 93.75%;
+}
+a.frame-91:hover ~ .bg, a.frame-91:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-91:hover ~ .mario, a.frame-91:focus ~ .mario {
+  background-position: -1200px 0;
+  bottom: 0%;
+}
+a.frame-91:hover ~ .q, a.frame-91:focus ~ .q {
+  left: 50%;
+}
+a.frame-91:hover ~ .q, a.frame-91:focus ~ .q {
+  background-position: -320px 0;
+}
+a.frame-91:hover ~ .title, a.frame-91:focus ~ .title {
+  -webkit-transform: scale(0.375);
+          transform: scale(0.375);
+  bottom: calc(33.75% + 220px);
+}
+
+a.frame-92 {
+  left: 94.79167%;
+}
+a.frame-92:hover ~ .bg, a.frame-92:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-92:hover ~ .mario, a.frame-92:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-92:hover ~ .q, a.frame-92:focus ~ .q {
+  left: 50%;
+}
+a.frame-92:hover ~ .q, a.frame-92:focus ~ .q {
+  background-position: -320px 0;
+}
+a.frame-92:hover ~ .title, a.frame-92:focus ~ .title {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  bottom: calc(35% + 220px);
+}
+
+a.frame-93 {
+  left: 95.83333%;
+}
+a.frame-93:hover ~ .bg, a.frame-93:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-93:hover ~ .mario, a.frame-93:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-93:hover ~ .q, a.frame-93:focus ~ .q {
+  left: 50%;
+}
+a.frame-93:hover ~ .q, a.frame-93:focus ~ .q {
+  background-position: -320px 0;
+}
+a.frame-93:hover ~ .title, a.frame-93:focus ~ .title {
+  -webkit-transform: scale(0.625);
+          transform: scale(0.625);
+  bottom: calc(36.25% + 220px);
+}
+
+a.frame-94 {
+  left: 96.875%;
+}
+a.frame-94:hover ~ .bg, a.frame-94:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-94:hover ~ .mario, a.frame-94:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-94:hover ~ .q, a.frame-94:focus ~ .q {
+  left: 50%;
+}
+a.frame-94:hover ~ .q, a.frame-94:focus ~ .q {
+  background-position: -320px 0;
+}
+a.frame-94:hover ~ .title, a.frame-94:focus ~ .title {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+  bottom: calc(37.5% + 220px);
+}
+
+a.frame-95 {
+  left: 97.91667%;
+}
+a.frame-95:hover ~ .bg, a.frame-95:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-95:hover ~ .mario, a.frame-95:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-95:hover ~ .q, a.frame-95:focus ~ .q {
+  left: 50%;
+}
+a.frame-95:hover ~ .q, a.frame-95:focus ~ .q {
+  background-position: -320px 0;
+}
+a.frame-95:hover ~ .title, a.frame-95:focus ~ .title {
+  -webkit-transform: scale(0.875);
+          transform: scale(0.875);
+  bottom: calc(38.75% + 220px);
+}
+
+a.frame-96 {
+  left: 98.95833%;
+}
+a.frame-96:hover ~ .bg, a.frame-96:focus ~ .bg {
+  background-position: -2080px bottom;
+}
+a.frame-96:hover ~ .mario, a.frame-96:focus ~ .mario {
+  background-position: 0px 0;
+  bottom: 0%;
+}
+a.frame-96:hover ~ .q, a.frame-96:focus ~ .q {
+  left: 50%;
+}
+a.frame-96:hover ~ .q, a.frame-96:focus ~ .q {
+  background-position: -320px 0;
+}
+a.frame-96:hover ~ .title, a.frame-96:focus ~ .title {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  bottom: calc(40% + 220px);
+}
+
+a[class^="frame"] {
+  position: absolute;
+  display: block;
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  width: 1.04167%;
+  background: rgba(255, 255, 255, 0);
+  outline: none;
+}
+a[class^="frame"]:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+a[class^="frame"]:focus {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.mario {
+  width: 240px;
+  height: 280px;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/111863/mario-sprite.png);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-transform: translateX(-55%) translateY(-80px) scale(0.5);
+          transform: translateX(-55%) translateY(-80px) scale(0.5);
+}
+
+.q {
+  position: absolute;
+  bottom: calc(20% + 220px);
+  right: 0;
+  left: 200%;
+  left: calc(50% + 1680px);
+  width: 80px;
+  height: 80px;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/111863/mario-q.png);
+  background-size: 400px 80px;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #0076ba;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/111863/mario-ground.png);
+  background-size: 80px 80px;
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+}
+
+.title {
+  position: absolute;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  bottom: 50%;
+  width: 100%;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+
+.instructions {
+  position: absolute;
+  left: 0.5rem;
+  bottom: 0rem;
+  right: 0.5rem;
+  z-index: 10;
+  color: white;
+  text-align: center;
+  opacity: 0.2;
+  -webkit-transition: opacity 250ms ease-in-out, bottom 250ms ease-in-out;
+  transition: opacity 250ms ease-in-out, bottom 250ms ease-in-out;
+}
+.instructions:hover, .instructions:focus {
+  bottom: 0.5rem;
+  opacity: 1;
+}
+.instructions p {
+  margin: 0;
+  padding: 0.5rem 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.instructions code {
+  font-size: 0.8em;
+}
+
+.hidden-frame {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -100%;
+  left: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  z-index: 10;
+  font-size: 1rem;
+  text-align: center;
+}
+.hidden-frame p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid white;
+  border-radius: 0.2rem;
+  background: black;
+  padding: 2rem;
+  line-height: 1.8;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.hidden-frame:focus {
+  left: 0;
+  right: 0;
+}
+.hidden-frame:focus ~ .bg {
+  background-position: -2080.0px bottom !important;
+}
+.hidden-frame:focus ~ .mario {
+  background-position: 0px 0 !important;
+  bottom: 0.0% !important;
+}
+.hidden-frame:focus ~ .q {
+  left: 50% !important;
+  background-position: -320px 0 !important;
+}
+.hidden-frame:focus ~ .title {
+  -webkit-transform: scale(1) !important;
+          transform: scale(1) !important;
+  bottom: calc(40% + 220px) !important;
+}
+
+.mini-mario {
+  display: inline-block;
+  width: 48px;
+  height: 56px;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/111863/mario-sprite.png);
+  background-size: 768px 56px;
+  vertical-align: middle;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
