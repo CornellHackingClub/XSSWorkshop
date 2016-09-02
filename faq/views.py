@@ -8,11 +8,9 @@ from django.db.models import Q
 def faq_home(request):
     user = request.user
 
-    if request.method == 'POST':
-        # Very specifically choosing *NOT* to check username
-        # so they can get away with XSS without authentication
+    if request.method == 'POST' and user is not None:
         question = request.POST['query']
-        FAQ.objects.create(title=question,user=user)
+        FAQ.objects.create(title=question, user=user)
 
     queryset = FAQ.objects.all()
 
