@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from flask import json
 from django.contrib.auth.models import User
+import json
 from CHCWebsite import settings
 from .models import Home
 
