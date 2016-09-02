@@ -61,12 +61,12 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.counter0 }}">
                                         {{ question.title | safe }}
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseOne" class="panel-collapse collapse">
+                            <div id="collapse{{ forloop.counter0 }}" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     {{ question.answer | safe }}
                                 </div>
