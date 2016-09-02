@@ -62,7 +62,7 @@
             {% endif %}
             <div class="col-sm-6 col-md-4 col-md-offset-4">
                 <div class="account-wall">
-                    <form class="form-signin" method="post" action="{% url 'django.contrib.auth.views.login' %}">
+                    <form class="form-signin" method="post" action="{% url 'login' %}">
                         {% csrf_token %}
                         <input type="text" class="form-control" name="username" placeholder="Username" required autofocus>
                         <input type="password" class="form-control" name="password" placeholder="Password" required>

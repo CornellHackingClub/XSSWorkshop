@@ -18,20 +18,21 @@ from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
 from django.views.generic.base import TemplateView
+from django.contrib.auth import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('home.urls')),
-    url(r'^login/$', 'django.contrib.auth.views.login'),
-    url(r'^logout/$', 'django.contrib.auth.views.logout', {'next_page': '/'}),
+    url(r'^login/', views.login, name='login'),
+    url(r'^logout/', views.logout, {'next_page': '/'}, name='logout'),
     url(r'^lectures/', include('lectures.urls')),
     url(r'^writeups/', include('writeups.urls')),
     url(r'^guides/', include('guides.urls')),
     url(r'^contact/', include('home.urls')),
-    url(r'^about$', include('home.urls')),
-    url(r'^sponsorship$', include('home.urls')),
-    url(r'^faq$', TemplateView.as_view(template_name='faq.html'), name="faq"),
-    url(r'^tools$', TemplateView.as_view(template_name='tools.html'), name="tools"),
+    url(r'^about/', include('home.urls')),
+    url(r'^sponsorship/', include('home.urls')),
+    url(r'^faq/', TemplateView.as_view(template_name='faq.html'), name="faq"),
+    url(r'^tools/', TemplateView.as_view(template_name='tools.html'), name="tools"),
 ]
 
 admin.site.site_header = 'Cornell Hacking Club Admin Page'
