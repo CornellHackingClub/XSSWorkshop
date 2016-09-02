@@ -8,15 +8,15 @@ from django.db.models import Q
 def faq_home(request):
     user = request.user
 
-    if request.method == 'POST' and user is not None:
+    if request.method == 'POST' and request.user.is_authenticated:
         question = request.POST['query']
-        FAQ.objects.create(title=question, user=user)
+        FAQ.objects.create(title=question, user=str(user))
 
     queryset = FAQ.objects.all()
 
     error = None
 
-    queryset = queryset.filter(Q(user__exact=user) | Q(user__exact='admin'))
+    queryset = queryset.filter(Q(user__exact=str(user)) | Q(user__exact='admin'))
     context = {
         "questions": queryset,
         "username": user,
