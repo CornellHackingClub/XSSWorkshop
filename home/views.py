@@ -34,11 +34,19 @@ def build_events_json():
 
 
 def registration(request):
+    error = False
     if request.method == "POST":
         username = request.POST.get("username")
         password = request.POST.get("password")
-        user = User.objects.create_user(username=username, password=password)
-        user.save()
+        try:
+            user = User.objects.create_user(username=username, password=password)
+            user.save()
+        except:
+            error = True
+            context = {
+                "error" : error
+            }
+            return render(request, "registration/registration_form.html", context)
         return calendar(request)
     else:
         return render(request, "registration/registration_form.html")
