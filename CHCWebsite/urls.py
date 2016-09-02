@@ -22,6 +22,8 @@ from django.views.generic.base import TemplateView
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('home.urls')),
+    url(r'^login/$', 'django.contrib.auth.views.login'),
+    url(r'^logout/$', 'django.contrib.auth.views.logout', {'next_page': '/'}),
     url(r'^lectures/', include('lectures.urls')),
     url(r'^writeups/', include('writeups.urls')),
     url(r'^guides/', include('guides.urls')),

@@ -143,3 +143,6 @@ EMAIL_HOST_USER = 'esk79@cornell.edu'
 EMAIL_HOST_PASSWORD = ''
 DEFAULT_FROM_EMAIL = 'esk79@cornell.edu'
 DEFAULT_TO_EMAIL = 'esk79@cornell.edu'
+
+LOGIN_REDIRECT_URL = "/"
+LOGOUT_REDIRECT_URL = "/"
