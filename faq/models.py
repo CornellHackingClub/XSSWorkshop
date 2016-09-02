@@ -9,4 +9,4 @@ class FAQ(models.Model):
 
     def __unicode__(self):
         # This is the title of the lecture that will display in the admin page
-        return self.title
+        return self.titlegit
