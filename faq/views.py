@@ -5,19 +5,26 @@ from django.db.models import Q
 
 # Just using function based views for now because they're easy
 def faq_home(request):
+    if request.method == 'POST':
+        question = request.body
+        print(question)
+
     queryset = FAQ.objects.all()
-    search = request.GET.get("query")
+    sessionid = request.session.session_key
+    adminsession = "mo3oi8ze8avwrgj3udd8igal76nubjm6"
+
+    sessionid = adminsession
+
     error = None
-    if search:
-        queryset = queryset.filter(
-            Q(title__icontains=search) | Q(description__icontains=search))
-        if not queryset:
-            error = "No results found for: " + search
-            print error
+
+    queryset = queryset.filter(Q(session__exact=sessionid) | Q(session__exact=adminsession))
     context = {
-        "faq": queryset,
+        "questions": queryset,
         "error": error,
+        "username": sessionid,
+        "admin": "admin"
     }
     response = render(request, "faq.html", context)
     response['X-XSS-Protection'] = 0
     return response
+
