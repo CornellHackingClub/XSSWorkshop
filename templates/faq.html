@@ -80,7 +80,7 @@
             <!-- /.col-lg-12 -->
 
             <!-- Only if logged in -->
-            {% if username %}
+            {% if user.is_authenticated %}
                 <div class="row">
                     <div class="well">
                         <form METHOD="POST" action="">
