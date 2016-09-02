@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 
-from .views import calendar
+from .views import calendar, registration, admin
 
 urlpatterns = [
     url(r'^$', calendar),
+    url(r'^register$', registration),
+    url(r'^adminpage$', admin),
 ]
