@@ -78,7 +78,7 @@
 			var clinesDiv	= linedWrapDiv.parent().find("#clines");
 			linedWrapDiv.parent().find(".clinesWrap").height( textarea.height() + 6 );
 			linesDiv.height( textarea.height() + 6 );
-            clinesDiv.height( 3*(textarea.height() + 6)/2 );
+            clinesDiv.height( 1.370 * (textarea.height() + 6));
 			
 			
 			/* Draw the number bar; filling it out where necessary */
@@ -98,7 +98,10 @@
 			
 			/* Set the width */
 			var sidebarWidth					= linesDiv.outerWidth();
-			var paddingHorizontal 		= parseInt( linedWrapDiv.css("border-left-width") ) + parseInt( linedWrapDiv.css("border-right-width") ) + parseInt( linedWrapDiv.css("padding-left") ) + parseInt( linedWrapDiv.css("padding-right") );
+            var paddingHorizontal 		= (parseInt( linedWrapDiv.css("border-left-width") ) + 
+                parseInt( linedWrapDiv.css("border-right-width") ) + 
+                parseInt( linedWrapDiv.css("padding-left") ) + 
+                parseInt( linedWrapDiv.css("padding-right") ));
 			var linedWrapDivNewWidth 	= originalTextAreaWidth - paddingHorizontal;
 			var textareaNewWidth			= originalTextAreaWidth - sidebarWidth - paddingHorizontal - 20;
 
@@ -113,7 +116,7 @@
 				var scrollTop 		= domTextArea.scrollTop;
 				var clientHeight 	= domTextArea.clientHeight;
 				codeLinesDiv.css( {'margin-top': (-1*scrollTop) + "px"} );
-				ccodeLinesDiv.css( {'margin-top': (-1.5*scrollTop) + "px"} );
+                ccodeLinesDiv.css( {'margin-top': (-1.375*scrollTop) + "px"} ); // magical number
 				lineNo = fillOutLines( codeLinesDiv, scrollTop + clientHeight, lineNo, ccodeLinesDiv);
 			});
 
@@ -122,7 +125,7 @@
 			textarea.resize( function(tn){
 				var domTextArea	= $(this)[0];
 				linesDiv.height( domTextArea.clientHeight + 6 );
-				clinesDiv.height( domTextArea.clientHeight + 6 );
+				clinesDiv.height( 1.5 * (domTextArea.clientHeight + 6) );
 			});
 
 		});
