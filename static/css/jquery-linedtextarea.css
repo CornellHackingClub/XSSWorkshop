@@ -30,6 +30,14 @@
 	margin: 0px;
 }
 
+.clinesWrap .codelines .lineno {
+    font-size: 11pt;
+    font-family: monospace;
+    line-height: 150% !important;
+    text-align: right;
+    border-right: 33px;
+}
+
 .linedtextarea textarea, .linedwrap .codelines .lineno {
 	font-size: 10pt;
 	font-family: monospace;
@@ -46,7 +54,7 @@
 	max-height:500px;
 }
 
-.linedwrap .lines {
+.linedwrap .lines, #clines {
 	margin-top: 0px;
 	width: 50px;
 	float: left;
