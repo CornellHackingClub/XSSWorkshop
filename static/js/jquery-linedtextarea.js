@@ -113,7 +113,7 @@
 				var scrollTop 		= domTextArea.scrollTop;
 				var clientHeight 	= domTextArea.clientHeight;
 				codeLinesDiv.css( {'margin-top': (-1*scrollTop) + "px"} );
-				ccodeLinesDiv.css( {'margin-top': (-1*scrollTop) + "px"} );
+				ccodeLinesDiv.css( {'margin-top': (-1.5*scrollTop) + "px"} );
 				lineNo = fillOutLines( codeLinesDiv, scrollTop + clientHeight, lineNo, ccodeLinesDiv);
 			});
 
