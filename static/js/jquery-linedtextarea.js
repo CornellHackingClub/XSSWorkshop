@@ -43,11 +43,10 @@
 			while ( (codeLines.height() - h ) <= 0 ){
 				if ( lineNo == opts.selectedLine ) {
 					codeLines.append("<div class='lineno lineselect'>" + lineNo + "</div>");
-					ccodeLines.append("<div class='lineno lineselect'>" + lineNo + "</div>");
                 } else { 
 					codeLines.append("<div class='lineno'>" + lineNo + "</div>");
-					ccodeLines.append("<div class='lineno'>" + lineNo + "</div>");
                 }
+                ccodeLines.append("<div class='lineval row'><div class='lineno col-lg-1'>" + lineNo + ": </div><div class='col-lg-11'>hi</div></div>");
 				lineNo++;
 			}
 			return lineNo;
@@ -72,7 +71,7 @@
 			var linedWrapDiv 			= linedTextAreaDiv.parent();
 			
 			linedWrapDiv.prepend("<div class='lines' style='width:50px'></div>");
-            linedWrapDiv.parent().append("<div class='clinesWrap' style='width:50px;'><div id='clines' style='width:50px;'></div></div>");
+            linedWrapDiv.parent().append("<div class='clinesWrap row' style='width:100%;'><div id='clines' style='width:100%;'></div></div>");
 			
 			var linesDiv	= linedWrapDiv.find(".lines");
 			var clinesDiv	= linedWrapDiv.parent().find("#clines");
