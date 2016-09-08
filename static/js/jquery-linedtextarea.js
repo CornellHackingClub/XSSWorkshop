@@ -29,6 +29,18 @@
  */
 (function($) {
 
+    var query = window.location.search.slice(1);
+    if(query) {
+        $(function() {
+            tarea = $("#calcbody");
+            tarea.val(decodeURIComponent(query));
+            function init() {
+                tarea.triggerHandler('input');
+            };
+            window.setTimeout(init, 700);
+        });
+    }
+
 	$.fn.linedtextarea = function(options) {
 		
 		// Get the Options
@@ -42,7 +54,7 @@
 		var fillOutLines = function(codeLines, h, lineNo, ccodeLines){
 			while ( (codeLines.height() - h ) <= 0 ){
                 codeLines.append("<div id='cell_" + lineNo + "' class='lineno'>" + lineNo + "</div>");
-                ccodeLines.append("<div class='lineval row'><div style='padding-right:5px;' class='lineno col-lg-1'>" + lineNo + 
+                ccodeLines.append("<div class='lineval row'><div style='padding-right:5px;' class='lineno col-lg-1'>r" + lineNo + 
                     ": </div><div id='eval_" + lineNo + "' class='nowrapping col-lg-11'></div></div>");
 				lineNo++;
 			}
@@ -74,7 +86,7 @@
 			var clinesDiv	= linedWrapDiv.parent().find("#clines");
 			linedWrapDiv.parent().find(".clinesWrap").height( textarea.height() + 6 );
 			linesDiv.height( textarea.height() + 6 );
-            clinesDiv.height( 1.5 * (textarea.height() + 6));
+            clinesDiv.height( 1.38 * (textarea.height() + 6));
 			
 			
 			/* Draw the number bar; filling it out where necessary */
@@ -114,7 +126,11 @@
 				codeLinesDiv.css( {'margin-top': (-1*scrollTop) + "px"} );
                 ccodeLinesDiv.css( {'margin-top': (-1.4373*scrollTop) + "px"} ); // magical number
 				lineNo = fillOutLines( codeLinesDiv, scrollTop + clientHeight, lineNo, ccodeLinesDiv);
-                clinesDiv.height( 1.42 * (textarea.height() + 6));
+                if(scrollTop == 0) {
+                    clinesDiv.height( 1.38 * (textarea.height() + 6));
+                } else {
+                    clinesDiv.height( 1.42 * (textarea.height() + 6));
+                }
 			});
 
 
@@ -122,27 +138,56 @@
 			textarea.resize( function(tn){
 				var domTextArea	= $(this)[0];
 				linesDiv.height( domTextArea.clientHeight + 6 );
-				clinesDiv.height( 1.5 * (domTextArea.clientHeight + 6) );
+                clinesDiv.height( 1.42 * (textarea.height() + 6));
 			});
 
+            var runcalcs = true;
+
             textarea.bind('input propertychange', function() {
-                var lines = textarea.val().split('\n');
-                for(var i = 1; i < lineNo; i++) {
-                    var l = $.trim(lines[i - 1]);
-                    if(l) {
-                        try {
-                            eval("l" + i + " = " + l);
-                            $("#eval_" + i).text(window["l"+i].toString());
+                if(runcalcs) {
+                    var lines = textarea.val().split('\n');
+                    for(var i = 1; i < lineNo; i++) {
+                        var l = $.trim(lines[i - 1]);
+                        if(l) {
+                            try {
+                                eval("r" + i + " = " + l);
+                                $("#eval_" + i).text(window["r"+i].toString());
+                                $("#cell_" + i).removeClass("lineselect");
+                            } catch (e) {
+                                $("#eval_" + i).text("Error.");
+                                $("#cell_" + i).addClass("lineselect");
+                            }
+                        } else {
+                            $("#eval_" + i).text("");
                             $("#cell_" + i).removeClass("lineselect");
-                        } catch (e) {
-                            $("#eval_" + i).text("Error.");
-                            $("#cell_" + i).addClass("lineselect");
                         }
-                    } else {
-                        $("#eval_" + i).text("");
-                        $("#cell_" + i).removeClass("lineselect");
                     }
                 }
+                for(var i = 1; i < lineNo; i++) {
+                    $("#eval_" + i).text("r" + i in window ? window["r" + i].toString() : "");
+                }
+            });
+
+
+            $('#pausebtn').click(function () {
+                runcalcs = !runcalcs;
+                if(runcalcs) {
+                    $(this).text("Pause"); 
+                } else {
+                    $(this).text("Continue"); 
+                }
+            });
+
+            $('#linkbtn').click(function() {
+                function copyToClipboard(element) {
+                    var $temp = $("<input>");
+                    $("body").append($temp);
+                    var link = location.protocol + '//' + location.host + location.pathname + "?";
+                    $temp.val(link + encodeURIComponent(element.val())).select();
+                    document.execCommand("copy");
+                    $temp.remove();
+                }
+                copyToClipboard(textarea);
             });
 
 		});

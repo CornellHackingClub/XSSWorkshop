@@ -23,6 +23,7 @@
 .linedwrap {
 /*	border: 1px solid #c0c0c0; */
 	padding: 3px;
+    padding-bottom: 30px;
 }
 
 .linedtextarea {
@@ -77,6 +78,7 @@
 
 .leftpadded {
     padding-left: 36px;
+    min-height: 580px;
 }
 
 .nowrapping {
