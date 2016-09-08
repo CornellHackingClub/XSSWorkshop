@@ -15,7 +15,11 @@ def faq_home(request):
 
     error = None
 
-    queryset = queryset.filter(Q(user__exact=str(user)) | Q(user__exact='admin'))
+    print user
+
+    if str(user) != 'admin':
+        queryset = queryset.filter(Q(user__exact=str(user)) | Q(user__exact='admin'))
+
     context = {
         "questions": queryset,
         "username": user,
