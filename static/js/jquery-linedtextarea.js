@@ -167,6 +167,7 @@
                 runcalcs = !runcalcs;
                 if(runcalcs) {
                     $(this).text("Pause"); 
+                    textarea.triggerHandler('input');
                 } else {
                     $(this).text("Continue"); 
                 }
