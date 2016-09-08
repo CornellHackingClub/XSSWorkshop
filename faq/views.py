@@ -3,7 +3,6 @@ from django.shortcuts import render
 from .models import FAQ
 from django.db.models import Q
 
-
 # Just using function based views for now because they're easy
 def faq_home(request):
     user = request.user
@@ -25,4 +24,3 @@ def faq_home(request):
     response = render(request, "faq.html", context)
     response['X-XSS-Protection'] = 0
     return response
-
