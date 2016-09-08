@@ -67,6 +67,10 @@
 	padding-top: 5px;
 }
 
+.lineval {
+    border-bottom: 1px solid #C1E0FF;
+}
+
 .linedwrap .codelines .lineno {
 	color:#AAAAAA;
 	padding-right: 0.5em;

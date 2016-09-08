@@ -41,12 +41,9 @@
 		 */
 		var fillOutLines = function(codeLines, h, lineNo, ccodeLines){
 			while ( (codeLines.height() - h ) <= 0 ){
-				if ( lineNo == opts.selectedLine ) {
-					codeLines.append("<div class='lineno lineselect'>" + lineNo + "</div>");
-                } else { 
-					codeLines.append("<div class='lineno'>" + lineNo + "</div>");
-                }
-                ccodeLines.append("<div class='lineval row'><div class='lineno col-lg-1'>" + lineNo + ": </div><div class='col-lg-11'>hi</div></div>");
+                codeLines.append("<div id='cell_" + lineNo + "' class='lineno'>" + lineNo + "</div>");
+                ccodeLines.append("<div class='lineval row'><div class='lineno col-lg-1'>" + lineNo + 
+                    ": </div><div id='eval_" + lineNo + "' class='col-lg-11'></div></div>");
 				lineNo++;
 			}
 			return lineNo;
@@ -115,7 +112,7 @@
 				var scrollTop 		= domTextArea.scrollTop;
 				var clientHeight 	= domTextArea.clientHeight;
 				codeLinesDiv.css( {'margin-top': (-1*scrollTop) + "px"} );
-                ccodeLinesDiv.css( {'margin-top': (-1.375*scrollTop) + "px"} ); // magical number
+                ccodeLinesDiv.css( {'margin-top': (-1.4373*scrollTop) + "px"} ); // magical number
 				lineNo = fillOutLines( codeLinesDiv, scrollTop + clientHeight, lineNo, ccodeLinesDiv);
 			});
 
@@ -126,6 +123,24 @@
 				linesDiv.height( domTextArea.clientHeight + 6 );
 				clinesDiv.height( 1.5 * (domTextArea.clientHeight + 6) );
 			});
+
+            textarea.bind('input propertychange', function() {
+                var lines = textarea.val().split('\n');
+                for(var i = 1; i < lineNo; i++) {
+                    var l = $.trim(lines[i - 1]);
+                    if(l) {
+                        try {
+                            $("#eval_" + i).text(eval("l" + i + " = " + l));
+                            $("#cell_" + i).removeClass("lineselect");
+                        } catch (e) {
+                            $("#eval_" + i).text("Error.");
+                            $("#cell_" + i).addClass("lineselect");
+                        }
+                    } else {
+                        $("#cell_" + i).removeClass("lineselect");
+                    }
+                }
+            });
 
 		});
 	};
