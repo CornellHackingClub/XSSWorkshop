@@ -43,7 +43,7 @@
 			while ( (codeLines.height() - h ) <= 0 ){
                 codeLines.append("<div id='cell_" + lineNo + "' class='lineno'>" + lineNo + "</div>");
                 ccodeLines.append("<div class='lineval row'><div style='padding-right:5px;' class='lineno col-lg-1'>" + lineNo + 
-                    ": </div><div id='eval_" + lineNo + "' class='col-lg-11'></div></div>");
+                    ": </div><div id='eval_" + lineNo + "' class='nowrapping col-lg-11'></div></div>");
 				lineNo++;
 			}
 			return lineNo;
@@ -74,7 +74,7 @@
 			var clinesDiv	= linedWrapDiv.parent().find("#clines");
 			linedWrapDiv.parent().find(".clinesWrap").height( textarea.height() + 6 );
 			linesDiv.height( textarea.height() + 6 );
-            clinesDiv.height( 1.370 * (textarea.height() + 6));
+            clinesDiv.height( 1.5 * (textarea.height() + 6));
 			
 			
 			/* Draw the number bar; filling it out where necessary */
@@ -114,6 +114,7 @@
 				codeLinesDiv.css( {'margin-top': (-1*scrollTop) + "px"} );
                 ccodeLinesDiv.css( {'margin-top': (-1.4373*scrollTop) + "px"} ); // magical number
 				lineNo = fillOutLines( codeLinesDiv, scrollTop + clientHeight, lineNo, ccodeLinesDiv);
+                clinesDiv.height( 1.42 * (textarea.height() + 6));
 			});
 
 
@@ -130,13 +131,15 @@
                     var l = $.trim(lines[i - 1]);
                     if(l) {
                         try {
-                            $("#eval_" + i).text(eval("l" + i + " = " + l));
+                            eval("l" + i + " = " + l);
+                            $("#eval_" + i).text(window["l"+i].toString());
                             $("#cell_" + i).removeClass("lineselect");
                         } catch (e) {
                             $("#eval_" + i).text("Error.");
                             $("#cell_" + i).addClass("lineselect");
                         }
                     } else {
+                        $("#eval_" + i).text("");
                         $("#cell_" + i).removeClass("lineselect");
                     }
                 }

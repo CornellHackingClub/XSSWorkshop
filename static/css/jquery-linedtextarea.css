@@ -79,6 +79,10 @@
     padding-left: 36px;
 }
 
+.nowrapping {
+    white-space:nowrap;
+}
+
 .well {
     background: rgb(248, 248, 248);
 }
