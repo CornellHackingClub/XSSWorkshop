@@ -72,10 +72,20 @@
 
 .linedwrap .lines {
 	border-right: 1px solid #c0c0c0;
+	padding-right: 3px;
+}
+
+.leftpadded {
+    padding-left: 36px;
+}
+
+.well {
+    background: rgb(248, 248, 248);
 }
 
 .linedwrap .codelines {
 	padding-top: 5px;
+	float: right;
 }
 
 .lineval {

@@ -42,7 +42,7 @@
 		var fillOutLines = function(codeLines, h, lineNo, ccodeLines){
 			while ( (codeLines.height() - h ) <= 0 ){
                 codeLines.append("<div id='cell_" + lineNo + "' class='lineno'>" + lineNo + "</div>");
-                ccodeLines.append("<div class='lineval row'><div class='lineno col-lg-1'>" + lineNo + 
+                ccodeLines.append("<div class='lineval row'><div style='padding-right:5px;' class='lineno col-lg-1'>" + lineNo + 
                     ": </div><div id='eval_" + lineNo + "' class='col-lg-11'></div></div>");
 				lineNo++;
 			}
@@ -67,7 +67,7 @@
             var linedTextAreaDiv	= textarea.parent().wrap("<div class='row linedwrap' style='/*width:" + originalTextAreaWidth + "px*/'></div>");
 			var linedWrapDiv 			= linedTextAreaDiv.parent();
 			
-			linedWrapDiv.prepend("<div class='lines' style='width:50px'></div>");
+			linedWrapDiv.prepend("<div class='col-lg-2 lines' style='width:50px'></div>");
             linedWrapDiv.parent().append("<div class='clinesWrap' style='width:100%;'><div class='row' id='clines' style='width:100%;'></div></div>");
 			
 			var linesDiv	= linedWrapDiv.find(".lines");
