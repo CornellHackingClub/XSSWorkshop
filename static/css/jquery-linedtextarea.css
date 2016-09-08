@@ -21,13 +21,17 @@
  */
 
 .linedwrap {
-	border: 1px solid #c0c0c0;
+/*	border: 1px solid #c0c0c0; */
 	padding: 3px;
 }
 
 .linedtextarea {
 	padding: 0px;
 	margin: 0px;
+}
+
+.clinesWrap {
+    margin-right: -30px;
 }
 
 .clinesWrap .codelines .lineno {
@@ -49,9 +53,13 @@
 	min-width:90%; 
 	max-width:90%; 
 
-	height:500px; 
-	min-height:500px;  
-	max-height:500px;
+	height:200px; 
+	min-height:200px;  
+	max-height:200px;
+}
+
+#clines {
+    margin-bottom:10px;
 }
 
 .linedwrap .lines, #clines {
@@ -59,8 +67,11 @@
 	width: 50px;
 	float: left;
 	overflow: hidden;
-	border-right: 1px solid #c0c0c0;
 	margin-right: 10px;
+}
+
+.linedwrap .lines {
+	border-right: 1px solid #c0c0c0;
 }
 
 .linedwrap .codelines {

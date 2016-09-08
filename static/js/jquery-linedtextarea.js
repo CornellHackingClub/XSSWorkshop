@@ -64,11 +64,11 @@
 
 			/* Wrap the text area in the elements we need */
 			textarea.wrap("<div class='linedtextarea'></div>");
-			var linedTextAreaDiv	= textarea.parent().wrap("<div class='linedwrap' style='width:" + originalTextAreaWidth + "px'></div>");
+            var linedTextAreaDiv	= textarea.parent().wrap("<div class='row linedwrap' style='/*width:" + originalTextAreaWidth + "px*/'></div>");
 			var linedWrapDiv 			= linedTextAreaDiv.parent();
 			
 			linedWrapDiv.prepend("<div class='lines' style='width:50px'></div>");
-            linedWrapDiv.parent().append("<div class='clinesWrap row' style='width:100%;'><div id='clines' style='width:100%;'></div></div>");
+            linedWrapDiv.parent().append("<div class='clinesWrap' style='width:100%;'><div class='row' id='clines' style='width:100%;'></div></div>");
 			
 			var linesDiv	= linedWrapDiv.find(".lines");
 			var clinesDiv	= linedWrapDiv.parent().find("#clines");
@@ -102,7 +102,7 @@
 			var textareaNewWidth			= originalTextAreaWidth - sidebarWidth - paddingHorizontal - 20;
 
 			textarea.width( textareaNewWidth );
-			linedWrapDiv.width( linedWrapDivNewWidth );
+            // linedWrapDiv.width( linedWrapDivNewWidth );
 			
 
 			
