@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^lectures/', include('lectures.urls')),
     url(r'^writeups/', include('writeups.urls')),
     url(r'^guides/', include('guides.urls')),
+    url(r'^lcalc/', TemplateView.as_view(template_name='lcalc.html')),
     url(r'^contact/', include('home.urls')),
     url(r'^about/', include('home.urls')),
     url(r'^sponsorship/', include('home.urls')),
