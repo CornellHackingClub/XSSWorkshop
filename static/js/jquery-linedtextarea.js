@@ -160,8 +160,8 @@
                 }
             });
 
-            tarea.triggerHandler('scroll');
-            tarea.triggerHandler('input');
+            textarea.triggerHandler('scroll');
+            textarea.triggerHandler('input');
 
             $('#pausebtn').click(function () {
                 runcalcs = !runcalcs;
