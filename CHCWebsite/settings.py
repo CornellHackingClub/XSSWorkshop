@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'jitdu3lmibz-)!bl_dpeg7ame8fu$4=*)omsse^nz%e+(ibmj*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -133,8 +133,8 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), STATIC_URL )
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), MEDIA_URL)
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
+MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media")
 
 # email settings, currently configured to send an email to Evan K
 EMAIL_USE_TLS = True

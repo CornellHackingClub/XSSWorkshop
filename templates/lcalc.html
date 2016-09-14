@@ -11,18 +11,15 @@
 
     <title>Cornell Hacking Club - Line Based Calculator</title>
 
-    {% load static %}
     <!-- Bootstrap Core CSS -->
-    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{% static "css/modern-business.css" %}" rel="stylesheet">
-    <link href="{% static "css/calendar.css" %}" rel="stylesheet">
-    <link href="{% static "css/general.css" %}" rel="stylesheet">
-    <link href="{% static "css/yay.css" %}" rel="stylesheet">
+    <link href="../../static/css/modern-business.css" rel="stylesheet">
+    <link href="../../static/css/general.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="{% static "font-awesome/css/font-awesome.min.css" %}" rel="stylesheet" type="text/css">
+    <link href="../../static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,13 +28,13 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- jQuery -->
-    <script src="../../static/js/jquery.js"></script>
+	<!-- jQuery -->
+	<script src="../../static/js/jquery.js"></script>
 
 
-    <!-- Lined text area -->
-    <script src="../../static/js/jquery-linedtextarea.js"></script>
-    <link href="../../static/css/jquery-linedtextarea.css" type="text/css" rel="stylesheet"/>
+	<!-- Lined text area -->
+	<script src="../../static/js/jquery-linedtextarea.js"></script>
+	<link href="../../static/css/jquery-linedtextarea.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
@@ -71,14 +68,14 @@
         {% endif %}
         <div class="row">
             <div class="well leftpadded col-lg-9">
-                <textarea class="lined" lines="100" cols="100" id="calcbody"></textarea>
-                <script>
-                    $(function () {
-                        $(".lined").linedtextarea(
-                                {selectedLine: 0}
-                        );
-                    });
-                </script>
+				<textarea class="lined" lines="100" cols="100" id="calcbody"></textarea>
+				<script>
+					$(function() {
+						$(".lined").linedtextarea(
+							{selectedLine: 0}
+						);
+					});
+				</script>
 
             </div>
             <!-- /.col-lg-12 -->
@@ -104,11 +101,8 @@
 </div>
 <!-- /.container -->
 
-<!-- jQuery -->
-<script src="{% static "js/jquery.js" %}"></script>
-
 <!-- Bootstrap Core JavaScript -->
-<script src="{% static "js/bootstrap.min.js" %}"></script>
+<script src="../../static/js/bootstrap.min.js"></script>
 
 </body>
 
