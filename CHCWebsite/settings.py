@@ -27,6 +27,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
+# SECURITY WARNING: only adding this so that we can access the session cookie client side!
+SESSION_COOKIE_HTTPONLY = False
 
 # Application definition
 
