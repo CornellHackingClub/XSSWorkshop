@@ -19,13 +19,13 @@ def faq_home(request):
         print "Created with id" + str(newQ.id)
 
         driver = webdriver.PhantomJS()  # or add to your PATH
-        driver.get('http://127.0.0.1:8000/login/')
+        driver.get('http://youcanthack.me:1234/login/')
         username = driver.find_element_by_name("username")
         password = driver.find_element_by_name("password")
         username.send_keys("admin")
         password.send_keys("CHCL33t")
         username.submit();
-        driver.get('http://127.0.0.1:8000/faq/?id=' + str(newQ.id))
+        driver.get('http://youcanthack.me:1234/faq/?id=' + str(newQ.id))
         driver.save_screenshot('screen.png')
 
     queryset = FAQ.objects.all()
